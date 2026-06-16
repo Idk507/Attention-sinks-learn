@@ -569,4 +569,3 @@ NVIDIA TensorRT-LLM integrated StreamingLLM's sink-aware cache management direct
 
 The streaming question-answering evaluation (StreamEval benchmark) shows that instruction-tuned models (Llama-2-7B-chat and its variants) using StreamingLLM maintain accuracy on queries whose answers appear far back in the conversation history, while window attention models degrade sharply as the answer-to-query distance grows beyond the cache size.
 
-The full architecture and data flow of StreamingLLM in production is shown below.
